@@ -18,11 +18,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
-    install_requires=[
-        'nltk==3.8.1',
-        'emoji==2.8.0',
-        'stanza==1.6.1'
-    ],
-    keywords='realtime, text streaming, stream, sentence, sentence detection, sentence generation, tts, speech synthesis, nltk, text analysis, audio processing, boundary detection, sentence boundary detection'
+    python_requires=">=3.6",
+    install_requires=["nltk==3.8.1", "emoji==2.10.1", "stanza==1.7.0"],
+    keywords="realtime, text streaming, stream, sentence, sentence detection, sentence generation, tts, speech synthesis, nltk, text analysis, audio processing, boundary detection, sentence boundary detection",
 )
